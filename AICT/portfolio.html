@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iffa's Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+      color: #222;
+      display: flex;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 220px;
+      background: #000000cc;
+      height: 100vh;
+      position: fixed;
+      padding-top: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .sidebar a {
+      color: #fff;
+      text-decoration: none;
+      padding: 14px 20px;
+      margin: 0 10px;
+      background: #111;
+      border-radius: 6px;
+      font-size: 18px;
+      transition: 0.3s;
+      font-weight: 500;
+    }
+
+    .sidebar a:hover {
+      background: #ff9966;
+      transform: translateX(8px);
+    }
+
+    /* Main Content */
+    .main {
+      margin-left: 240px;
+      padding: 80px 50px;
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-size: 18px;
+      max-width: 700px;
+      line-height: 1.6;
+    }
+
+    .section {
+      margin-bottom: 80px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background music -->
+  <audio autoplay loop>
+    <source src="https://cdn.pixabay.com/download/audio/2022/03/24/audio_7d1a50e4c2.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="sidebar">
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#flaws">Flaws</a>
+    <a href="#interests">Interests</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact Me</a>
+  </div>
+
+  <div class="main">
+
+    <!-- HOME -->
+    <section id="home" class="section">
+      <h1>Hi! I'm Iffa</h1>
+      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=60" alt="Aesthetic vibe" style="width:300px;border-radius:12px;margin:20px 0;">
+      <h2>Welcome to my little corner on the internet ✨</h2>
+      <p>
+        This is my personal website — refreshed, aesthetic, and a bit extra because why not? Scroll around and get to know me better.
+      </p>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h1>About Me</h1>
+      <p>
+        My name is Iffa Farhan — but you can just call me Iffa. I'm a curious soul, a fast learner, and someone who loves exploring new ideas.
+      </p>
+    </section>
+
+    <!-- FLAWS -->
+    <section id="flaws" class="section">
+      <h1>My Flaws</h1>
+      <p>Some cute, relatable flaws because perfection is boring:</p>
+      <ul>
+        <li>I procrastinate like it’s a sport.</li>
+        <li>I overthink even the simple stuff.</li>
+        <li>I get lost in my own thoughts way too easily.</li>
+        <li>I say yes to everything then wonder why I have no free time.</li>
+        <li>I get attached to songs and play them until I ruin them.</li>
+        <li>I type fast but make typos even faster.</li>
+        <li>I cannot make a decision to save my life.</li>
+        <li>I laugh at the worst possible moments.</li>
+        <li>My brain has 47 tabs open at all times.</li>
+        <li>I talk a lot when I’m excited.</li>
+      </ul>
+    </section>
+
+    <!-- INTERESTS -->
+    <section id="interests" class="section">
+      <h1>My Interests</h1>
+      <p>
+        I vibe with aesthetic web design, gaming, coding, and learning cool new stuff. I also enjoy music that hits different and visuals that look ✨too pretty to ignore✨.
+      </p>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section">
+      <h1>Gallery</h1>
+      <p>Here are some random mood vibes (placeholders):</p>
+      <ul>
+        <li><a href="https://unsplash.com" target="_blank">Pretty Images — Unsplash</a></li>
+        <li><a href="https://pinterest.com" target="_blank">Aesthetic Boards — Pinterest</a></li>
+      </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h1>Contact Me</h1>
+      <p>
+        Wanna reach out? You can contact me here:
+      </p>
+      <ul>
+        <li>Email: <a href="mailto:iffafarhan85@gmail.com">iffafarhan85@gmail.com</a></li>
+              </ul>
+    </section>
+
+  </div>
+
+</body>
+</html>
